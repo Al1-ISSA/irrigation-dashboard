@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "ES2020", // Ensure output is ESM compatible
+    "target": "ES2020", // Set a modern target
+    "outDir": "./dist",
+    "rootDir": "./lib",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node"
+  },
+  "include": ["lib/**/*"]
+}
